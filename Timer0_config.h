@@ -2,7 +2,7 @@
  * Timer0_config.h
  *
  *  Created on: Apr 10, 2020
- *      Author: Khalid
+ *      Author: Mahmoud Fargallah
  */
 
 #ifndef HAL_TIMER0_CONFIG_H_
@@ -10,9 +10,9 @@
 
 //RANGE : ( HIGH "1" or LOW "0")
 
-/* Timer/Counter0 Control Register – TCCR0
+/* Timer/Counter0 Control Register â€“ TCCR0
 -------------------------------------------
-Bit 6, 3 – WGM01:0: Waveform Generation Mode
+Bit 6, 3 â€“ WGM01:0: Waveform Generation Mode
 --------------------------------------------
 WGM01 WGM00 Timer/Counter Mode of Operation
   0     0               Normal
@@ -26,7 +26,7 @@ WGM01 WGM00 Timer/Counter Mode of Operation
 #define  WGM01_Val  0
 #define  WGM00_Val  0
 
-/*Bit 5:4 – COM01:0: Compare Match Output Mode
+/*Bit 5:4 â€“ COM01:0: Compare Match Output Mode
 ---------------------------------------------------
 Compare Output Mode, non-PWM Mode
 COM01 COM00     Description
@@ -57,12 +57,12 @@ CS02 CS01 CS00 	Description
 #define  CS01_Val   0
 #define  CS00_Val   1
 
-//Timer/Counter Interrupt Mask Register – TIMSK
+//Timer/Counter Interrupt Mask Register â€“ TIMSK
 //--------------------------------------------------
-// Bit 1 – OCIE0: Timer/Counter0 Output Compare Match Interrupt Enable
+// Bit 1 â€“ OCIE0: Timer/Counter0 Output Compare Match Interrupt Enable
 
 #define  OCIE0_Val  0
-// Bit 0 – TOIE0: Timer/Counter0 Overflow Interrupt Enable
+// Bit 0 â€“ TOIE0: Timer/Counter0 Overflow Interrupt Enable
 
 #define  TOIE0_Val  1
 
