@@ -2,7 +2,7 @@
  * Timer0_reg.h
  *
  *  Created on: Apr 11, 2020
- *      Author: Khalid
+ *      Author: Mahmoud Fargallah
  */
 
 #ifndef HAL_TIMER0_REG_H_
