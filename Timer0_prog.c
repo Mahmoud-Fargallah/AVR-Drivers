@@ -2,7 +2,7 @@
  * Timer0_prog.c
  *
  *  Created on: Apr 11, 2020
- *      Author: Khalid
+ *      Author: Mahmoud Fargallah
  */
 
 #include "../LIB/STD_types.h"
