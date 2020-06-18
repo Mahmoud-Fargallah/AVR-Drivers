@@ -2,7 +2,7 @@
  * Timer0_int.h
  *
  *  Created on: Apr 10, 2020
- *      Author: Khalid
+ *      Author: Mahmoud Fargallah
  */
 
 #ifndef HAL_TIMER0_INT_H_
