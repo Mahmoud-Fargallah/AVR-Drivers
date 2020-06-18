@@ -2,7 +2,7 @@
  * Timer0_priv.h
  *
  *  Created on: Apr 10, 2020
- *      Author: Khalid
+ *      Author: Mahmoud Fargallah
  */
 
 #ifndef HAL_TIMER0_PRIV_H_
@@ -11,7 +11,7 @@
 
 
 /*************** Registers Bits Definition *****************/
-/* Timer/Counter0 Control Register – TCCR0 */
+/* Timer/Counter0 Control Register â€“ TCCR0 */
 #define  FOC0   7
 #define  WGM00  6
 #define  COM01  5
@@ -21,11 +21,11 @@
 #define  CS01   1
 #define  CS00   0
 
-/* Timer/Counter Interrupt Mask Register – TIMSK */
+/* Timer/Counter Interrupt Mask Register â€“ TIMSK */
 #define  OCIE0  1
 #define  TOIE0  0
 
-/* Timer/Counter Interrupt Flag Register – TIFR */
+/* Timer/Counter Interrupt Flag Register â€“ TIFR */
 #define  OCF0  1
 #define  TOV0  0
 
